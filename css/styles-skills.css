@@ -54,21 +54,51 @@
   background-color: #a6cfe3;
 }
 
-.bar.learning::before{
-  width: calc(20% - 10px);
-}
-.bar.basic::before{
-  width: calc(40% - 10px);
-}
-.bar.intermediate::before{
-  width: calc(60% - 10px);
-}
-.bar.advanced::before{
-  width: calc(80% - 10px);
-}
-.bar.expert::before{
+.bar.HTML5::before{
   width: calc(100% - 10px);
+  background-color: #ffb101;
 }
+.bar.CSS::before{
+  width: calc(95% - 10px);
+  background-color: #264de4;
+}
+
+.bar.JAVASCRIPT::before{
+  width: calc(95% - 10px);
+  background-color:#f67317;
+}
+.bar.JQUERY::before{
+  width: calc(95% - 10px);
+  background-color: #f67317;
+}
+
+.bar.PHP::before{
+  width: calc(80% - 10px);
+  background-color: #1abc9c;
+}
+.bar.PYTHON::before{
+  width: calc(40% - 10px);
+  background-color: #1abc9c;
+}
+.bar.CSHARP::before{
+  width: calc(85% - 10px);
+  background-color: #1abc9c;
+}
+.bar.JAVA::before{
+  width: calc(90% - 10px);
+  background-color: #1abc9c;
+}
+.bar.VR::before{
+  width: calc(50% - 10px);
+  background-color: #000000;
+}
+.bar.WORDPRESS::before{
+  width: calc(78% - 10px);
+  background-color: #4494d4;
+}
+
+
+
 
 
 .bold-title{
