@@ -89,7 +89,7 @@
   background-color: #1abc9c;
 }
 .bar.VR::before{
-  width: calc(50% - 10px);
+  width: calc(70% - 10px);
   background-color: #000000;
 }
 .bar.WORDPRESS::before{
