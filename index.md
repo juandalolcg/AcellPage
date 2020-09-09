@@ -1,5 +1,6 @@
-Juan David Correa 
-22 Años
+##Juan David Correa 
+
+##22 Años
 
 Bogotá DC Colombia • CC 1022427556 • Cra 66# 54a-11sur 
 CEL (+57) 300-4376184 • E-MAIL acellpage@gmail.com
