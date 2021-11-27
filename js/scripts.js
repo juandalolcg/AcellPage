@@ -67,3 +67,8 @@
   
   })(jQuery); // End of use strict
   
+
+  window.onload = function() {
+    document.getElementById("year").innerHTML = new Date().getFullYear();
+  };
+  
