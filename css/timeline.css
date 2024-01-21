@@ -106,12 +106,13 @@ a {
 .timeline__item-header {
 	display: flex;
 }
-.timeline__item-body {
+.timeline__item-body {	
 	border-radius: 0.375em;
 	overflow: hidden;
 	margin-top: 0.5em;
 	margin-inline-start: 4em;
 	height: 0;
+	word-wrap: break-word;
 }
 .timeline__item-body-content {
 	background-color: hsl(var(--hue),10%,50%,0.2);
