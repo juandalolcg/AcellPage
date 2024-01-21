@@ -10,6 +10,9 @@ class CollapsibleTimeline {
 	}
 	init() {
 		this.el?.addEventListener("click",this.itemAction.bind(this));
+		// Simulate a click on each item's button to expand them by default
+        const buttons = Array.from(this.el?.querySelectorAll('[data-action="expand"]'));
+        buttons.forEach(button => button.click());
 	}
 	animateItemAction(button,ctrld,contentHeight,shouldCollapse) {
 		const expandedClass = "timeline__item-body--expanded";
