@@ -67,6 +67,10 @@
   width: calc(95% - 10px);
   background-color:#f67317;
 }
+.bar.LEADERSHIP::before{
+  width: calc(98% - 10px);
+  background-color:#000000;
+}
 .bar.JQUERY::before{
   width: calc(95% - 10px);
   background-color: #f67317;
@@ -90,7 +94,7 @@
 }
 .bar.VR::before{
   width: calc(70% - 10px);
-  background-color: #000000;
+  background-color: #961212;
 }
 .bar.WORDPRESS::before{
   width: calc(80% - 10px);
