@@ -1,0 +1,133 @@
+/* PRINT STYLESHEET FOR RESUME */
+
+@media print {
+
+/* Reset */
+
+* {
+    box-shadow: none !important;
+    text-shadow: none !important;
+}
+
+/* Page setup */
+
+@page {
+    margin: 1.5cm;
+}
+
+/* Hide navigation and UI elements */
+
+#sideNav,
+.navbar,
+.social-icons,
+.btn,
+button,
+footer {
+    display: none !important;
+}
+
+/* Expand layout to full width */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000;
+    background: #fff;
+}
+
+.container-fluid {
+    width: 100%;
+    padding: 0;
+}
+
+/* Section spacing */
+
+.resume-section {
+    page-break-inside: avoid;
+    margin-bottom: 25px;
+}
+
+/* Headings */
+
+h1 {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 22px;
+    margin-top: 25px;
+}
+
+h3 {
+    font-size: 18px;
+}
+
+.subheading {
+    font-size: 14px;
+}
+
+/* Text */
+
+p {
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+/* Lists */
+
+ul {
+    margin-left: 15px;
+}
+
+li {
+    font-size: 12px;
+    margin-bottom: 4px;
+}
+
+/* Experience layout fix */
+
+.d-flex {
+    display: block !important;
+}
+
+.flex-shrink-0 {
+    margin-top: 4px;
+    font-size: 12px;
+    color: #444;
+}
+
+/* Profile image smaller */
+
+.img-profile {
+    width: 120px !important;
+    height: 120px !important;
+    margin-bottom: 10px;
+}
+
+/* Prevent awkward page breaks */
+
+h2, h3 {
+    page-break-after: avoid;
+}
+
+p, ul {
+    page-break-inside: avoid;
+}
+
+/* Links visible for recruiters */
+
+a:link:after,
+a:visited:after {
+    content: " (" attr(href) ")";
+    font-size: 10px;
+}
+
+/* Icons removal for ATS clarity */
+
+.fa,
+.fab,
+.fas {
+    display: none;
+}
+
+}
